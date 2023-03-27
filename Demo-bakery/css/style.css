@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Noto+Serif+JP:wght@200;300;400&display=swap");
+@import "reset.css";
+
+body {
+  color: #555;
+  font-family: "Noto Serif JP", serif;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 1.125rem;
+}
+
+section {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero0 {
+  background-image: url(../images/bread1.jpg);
+  text-align: center;
+  padding-top: 10vh;
+}
+
+body {
+  background-image: url(/Demo-bakery/images/bg1.png),
+    url(/Demo-bakery/images/bg2.png);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 10vh;
+}
